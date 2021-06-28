@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JURASSIC PARK</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="./booking.css">
+</head>
+<body>
+<header class="header">
+	<img src="./Jurassic_Park_(logo).png" width="240" height="170">
+	<h1 id="heading">JURASSIC PARK</h1>
+</header>
+	<nav>
+		<ul class="navbar" style="list-style-type: none;">
+		<li ><a href="./homepage.html" class="navbar homepage" style="text-decoration: none">Home</a></li>
+		<li ><a href="./events.html" class="navbar events" style="text-decoration: none">Events</a></li>
+		<li ><a href="./gallery.html" class="navbar gallery" style="text-decoration: none">Gallery</a></li>
+		<li ><a href="./booking.html" class="navbar booking" style="text-decoration: none">Booking</a></li>
+		<li ><a href="./about.html" class="navbar about" style="text-decoration: none">About</a></li>
+		</ul>
+	</nav>
+	
+	<marquee class="ticketbook" scrollamount="12">TICKET BOOKING</marquee>
+	<div class="content">
+
+	<form class="booking">
+		<div class="element"><label>NAME</label>
+		<input type="text" name="NAME"></div>
+		<div class="element"><label>E-MAIL ADDRESS</label>
+		<input type="email" name="email" placeholder="me@example.com"></div>
+		<div class="element"><label>MOBILE NUMBER</label>
+		<input type="mobile number" name="MOBILE"></div>
+		<div class="element"><label>DATE OF VISIT</label>
+		<input type="date" name="date"></div>
+		<div class="element"><label>ADULTS</label>
+		<input type="number" name="adults" min="0" ></div>
+		<div class="element"><label>CHILDREN (upto 13 yrs)</label>
+		<input type="number" name="children" min="0"></div>
+		<div class="element"><label>SENIOR CITIZENS</label>
+		<input type="number" name="senior_citizens" min="0"></div>
+		<button class="element" style="vertical-align:middle"><span>BOOK NOW </span></button>
+	</form>
+
+	<div class="ticket_price">
+		<h1>TICKET PRICE</h1>
+		<dl>
+			<dt>FOR ADULTS</dt>
+			<dd>Weekdays: Rs750</dd>
+			<dd>Weekends: Rs1000</dd>
+		</dl>
+		<dl>
+			<dt>FOR CHILDREN (upto 13 yrs)</dt>
+			<dd>Weekdays: Rs500</dd>
+			<dd>Weekends: Rs750</dd>
+		</dl>
+		<dl>
+			<dt>FOR SENIOR CITIZENS</dt>
+			<dd>Weekdays: Rs500</dd>
+			<dd>Weekends: Rs 750</dd>
+		</dl>
+	</div>
+
+
+</div>
+</body>
+</html>

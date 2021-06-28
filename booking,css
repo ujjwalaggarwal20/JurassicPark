@@ -1,0 +1,5 @@
+a.booking {
+	color: black;
+  background-color: darkgrey;
+  border-bottom: 4px solid black
+}

@@ -1,0 +1,99 @@
+a.booking {
+	color: black;
+  background-color: darkgrey;
+  border-bottom: 4px solid black
+}
+form.booking {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: darkseagreen;
+    padding: 20px;
+    padding-bottom:0px;
+    margin-right: 30px;
+
+}
+.element {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+}
+label {
+    font-size: 22px;
+    width: 250px;
+    }
+input {
+    width: 250px;
+}
+.ticket_price{
+    padding: 20px;
+    padding-bottom:0px;
+    background-color: firebrick;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-right:300px;
+    padding-left: 300px;
+    padding-bottom: 0px;
+
+}
+dt {
+    font-size: 22px;
+
+}
+dd {
+    font-size: 20px;
+
+}
+.ticketbook {
+    background-color: darkcyan;
+    font-size: 32px;
+}
+
+button.element {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: firebrick;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+button.element span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.element span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right:  -20px;
+  transition: 0.5s;
+}
+
+button.element:hover span {
+  padding-right: 25px;
+
+}
+
+button.element:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+

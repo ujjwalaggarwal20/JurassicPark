@@ -1,0 +1,42 @@
+a.about {
+	color: black;
+  background-color: darkgrey;
+  border-bottom: 4px solid black
+}
+button.index {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  text-align: left;
+  width: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left:0px;
+}
+
+button.index span {
+  cursor: pointer;
+  display: inline-block;
+  position: sticky;
+  transition: 0.5s;
+}
+
+button.index span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top:360px;
+  left: 0px;
+  right:  10px;
+  transition: 0.5s;
+}
+
+button.index:hover span {
+  padding-right: 25px;
+
+}
+
+button.index:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -1,0 +1,13 @@
+a.homepage {
+	color: black;
+  background-color: darkgrey;
+  border-bottom: 4px solid black
+}
+strong{
+	font-size: 32px;
+	color: firebrick;
+}
+marquee {
+	background-color: darkseagreen;
+
+}
